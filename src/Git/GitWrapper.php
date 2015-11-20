@@ -1,5 +1,5 @@
 <?php
-namespace Common\Git;
+namespace Git;
 
 class GitWrapper
 {
