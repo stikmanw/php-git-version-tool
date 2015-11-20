@@ -1,0 +1,19 @@
+{
+	"name": "stikman/php-git-version-tool", 
+	"description": "Class that makes managing local git repos and syncing with remote repos easy. Good utility class for cli tools that rely on semver tagging for deployment",
+	"authors": [
+		{
+			"name": "Ben Carter",
+			"email": "stikmanwebsolutons@gmail.com"
+		}
+	],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    }
+	"autoload": {
+		"psr-0": {
+			"Git": "src/"
+		}
+	} 
+}
